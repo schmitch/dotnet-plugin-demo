@@ -11,7 +11,7 @@ namespace Finder.Plugin.Demo
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-                Console.WriteLine($"Current Time V4: {DateTime.Now}");
+                Console.WriteLine($"Current Time V5: {DateTime.Now}");
 
                 await Task.Delay(5000, stoppingToken);
             }
